@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(21, 38, 70);
+}
+
+.main{
+    text-align: center;
+    margin: auto;
+    width: 550px;
+    height: 600px;
+    border: 1px solid black;
+    border-radius: 14px;
+    padding: 30px 0px;
+    margin-top: 80px;
+    
+    background-color: aliceblue;
+}
+
+.main h1{
+    padding-bottom: 30px;
+}
+
+.container .action{
+    margin-left: 100px;
+    text-align: start;
+}
+
+.container .lists{
+    margin-top: 30px;
+    padding: 20px 0px;
+    margin-left: 100px;
+    text-align: start;
+}
+
+.container .action input{
+    width: 300px;
+    font-weight: 400;
+    border-radius: 12px;
+    padding-left: 5px;
+    font-size: 15px;
+    height: 35px;
+    border: 1px solid grey;
+}
+
+.container .action .add{
+    height: 35px;
+    width: 100px;
+    border: none;
+    color: whitesmoke;
+    border-radius: 8px;
+    background-color: green;
+    cursor: pointer;
+}
+
+.container .action .add:hover{
+ transform: scale(1.05);
+}
+
+.container .lists .list{
+    border: 1px solid grey;
+    width: 400px;
+    position: relative;
+    background-color: white;
+    padding: 10px 16px;
+    margin-top: 12px;
+    border-radius: 12px;
+}
+
+.container .lists .list input[type="checkbox"] {
+    width: 20px;  
+    height: 16px; 
+    cursor: pointer; 
+}
+
+.checked {
+    text-decoration: line-through;
+}
+
+.container .lists .list label
+{
+    font-size: 18px;
+    padding: 12px;
+    color:rgb(55, 104, 105)
+}
+
+.container .lists .list .bx-edit{
+    font-size: 22px;
+    color: blueviolet;
+    position: absolute;
+    right: 30px;
+    cursor: pointer; 
+}
+
+.container .lists .list .bx-trash{
+    font-size: 22px;
+    color: red;
+    position: absolute;
+    right: 4px;
+    cursor: pointer; 
+}

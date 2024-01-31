@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+#dp{
+    border-radius: 50%;
+    width: 320px;
+    padding: 10px;
+}
+
+.main {
+    padding: 0px 88px;
+}
+.main .intro .name{
+    font-size: 200px;
+    background: linear-gradient(95deg,#7e22ce 3.2%, #3b82f6 99.5%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main .intro .dob{
+    color:#000;
+    font-size: 22px;
+    font-weight: 800;
+    text-align: end;
+}
+
+
+.info .para{
+    padding:62px 200px;
+    font-size: 24px;
+    text-align: justify;
+    font-weight: 400;
+}
+
+.info .ending{
+    text-align: end;
+    padding: 12px;
+}
+
+.imr{
+    margin-left: 170px;
+    margin-bottom: 20px;
+}

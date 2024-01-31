@@ -1,0 +1,90 @@
+/* General Styles */
+
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.h {
+    color: #333;
+    text-align: center;
+}
+
+div {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+input[type="text"], input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 85%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #0056b3;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #003d82;
+}
+
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.secure-page {
+    background-color: #e8f0fe;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    width: 350px; 
+    text-align: center;
+}
+
+.secure-page h2 {
+    color: #0056b3; 
+    margin-bottom: 20px;
+}
+
+.secure-page p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333; 
+}
+
+.secure-page button {
+    width: 100%; 
+    padding: 12px;
+    background-color: #d9534f; 
+}
+
+.secure-page button:hover {
+    background-color: #c9302c; 
+}

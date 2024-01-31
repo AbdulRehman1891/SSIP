@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/index.js"></script>
+    <title>20i-2344</title>
+</head>
+<body>
+    <section class="header">
+        <div class="title">
+            <h1>Calculator</h1>
+            <h3>Abdul Rehman</h3>
+        </div>
+    </section>
+
+    <section class="calculator">
+        <form action="" class="form1" name="form2">
+        <div class="display">
+                <input type="text" id="TextBox" name="TextBox">
+               
+                <!-- <input type="button" onclick="Clear()" value="C" id="btn1"  class="red"> -->
+                <Button type="button" id="Cbtn"  class="red Button" onclick="Display('C')">C</Button>
+        </div>
+        <br>
+       <div class="line1">
+        <Button type="button" id="size1" class="Button" onclick="Display('9')">9</Button>
+        <Button type="button" id="size1" class="Button" onclick="Display('8')">8</Button>
+        <Button type="button" id="size1" class="Button" onclick="Display('7')">7</Button>
+        <Button type="button" id="size1" class="blue Button" onclick="Display('/')">/</Button>
+        <!-- <input type="button" value="9" id="size1" class="Button" >
+        <input type="button" value="8" id="size1" class="Button" >
+        <input type="button" value="7"  id="size1" class="Button">
+        <input type="button" value="/" id="size1" class="blue Button"> -->
+        </div>
+        <div class="line1">
+            <Button type="button" id="size1" class="Button" onclick="Display('6')">6</Button>
+            <Button type="button" id="size1" class="Button" onclick="Display('5')">5</Button>
+            <Button type="button" id="size1" class="Button" onclick="Display('4')">4</Button>
+            <Button type="button" id="size1" class="blue Button" onclick="Display('*')">*</Button>
+            <!-- <input type="button" value="6" id="size1" class="Button" >
+            <input type="button" value="5" id="size1" class="Button" >
+            <input type="button" value="4"  id="size1" class="Button" >
+            <input type="button" value="*" id="size1" class="blue Button"> -->
+        </div>
+        <div class="line1">
+            <Button type="button" id="size1" class="Button" onclick="Display('3')">3</Button>
+            <Button type="button" id="size1" class="Button" onclick="Display('2')">2</Button>
+            <Button type="button" id="size1" class="Button" onclick="Display('1')">1</Button>
+            <Button type="button" id="size1" class="blue Button" onclick="Display('+')">+</Button>
+            <!-- <input type="button" value="3" id="size1" class="Button" >
+            <input type="button" value="2" id="size1" class="Button" >
+            <input type="button" value="1"  id="size1" class="Button" >
+            <input type="button" value="+" id="size1" class="blue Button"> -->
+        </div>
+        <div class="line1">
+            <Button type="button" id="size1" class="Button red" onclick="Display('X')">X</Button>
+            <Button type="button" id="size1" class="Button" onclick="Display('0')">0</Button>
+            <Button type="button" id="size1" class="Button green" onclick="Display('=')">=</Button>
+            <Button type="button" id="size1" class="blue Button" onclick="Display('-')">-</Button>
+            <!-- <input type="button" value="X" id="size1" class="red Button">
+            <input type="button" value="0" id="size1" class="Button" >
+            <input type="button" value="="  id="size1" class="green Button">
+            <input type="button" value="-" id="size1" class="blue Button"> -->
+        </div>
+
+    </form>
+    </section>
+</body>
+</html>
